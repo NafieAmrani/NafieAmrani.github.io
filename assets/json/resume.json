@@ -51,7 +51,22 @@
   ],
 "awards": "",
   "certificates": "",
-  "publications": "",
+  "publications": [
+    {
+      "name": "A Universal and Flexible Framework for Unsupervised Statistical Shape Model Learning",
+      "publisher": "MICCAI 2024",
+      "releaseDate": "2024-05",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "name": "Spectral Meets Spatial: Harmonising 3D Shape Matching and Interpolation",
+      "publisher": "CVPR 2024",
+      "releaseDate": "2024-02",
+      "url": "https://arxiv.org/pdf/2402.18920",
+      "summary": ""
+    }
+  ],
   "skills": "",
   "languages": [
     {
