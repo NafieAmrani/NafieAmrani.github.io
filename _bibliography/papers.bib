@@ -1,11 +1,28 @@
 ---
 ---
 
+@InProceedings{elamrani2024fuss,
+    bibtex_show={true},
+    abbr={MICCAI 2024},
+    selected={true},
+    preview={nafie2024miccai.png},
+    code={https://github.com/NafieAmrani/FUSS},
+    author={El Amrani, Nafie and Cao, Dongliang and Bernard, Florian},
+    title     = {A Universal and Flexible Framework for Unsupervised Statistical Shape Model Learning},
+    booktitle = {Medical Image Computing and Computer Assisted Intervention (MICCAI)},
+    month     = {October},
+    year      = {2024},
+    abstract={We introduce a novel unsupervised deep learning framework for constructing statistical shape models (SSMs). Although unsupervised learning-based 3D shape matching methods have made a major leap forward in recent years, the correspondence quality of existing methods does not meet the demanding requirements necessary for the construction of SSMs of complex anatomical structures. We address this shortcoming by proposing a novel \emph{deformation coherency loss} to effectively enforce smooth and high-quality correspondences during neural network training. We demonstrate that our framework outperforms existing methods in creating high-quality SSMs by conducting extensive experiments on five challenging datasets with varying anatomical complexities. Our proposed method sets the new state of the art in unsupervised SSM learning, offering a universal solution that is both flexible and reliable. Our source code is publicly available at https://github.com/NafieAmrani/FUSS.}
+}
+
+
 @InProceedings{cao2024spectral,
     bibtex_show={true},
     abbr={CVPR 2024},
     selected={true},
     preview={dongliang2024cvpr.png},
+    arxiv={https://arxiv.org/pdf/2402.18920},
+    code={https://github.com/dongliangcao/Spectral-Meets-Spatial},
     author={Cao, Dongliang and Eisenberger, Marvin and El Amrani, Nafie and Cremers, Daniel and Bernard, Florian},
     title     = {Spectral Meets Spatial: Harmonising 3D Shape Matching and Interpolation},
     booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
@@ -14,17 +31,4 @@
     abstract={Although 3D shape matching and interpolation are highly interrelated, they are often studied separately and applied sequentially to relate different 3D shapes, thus resulting in sub-optimal performance. In this work we present a unified framework to predict both point-wise correspondences and shape interpolation between 3D shapes. To this end, we combine the deep functional map framework with classical surface deformation models to map shapes in both spectral and spatial domains. On the one hand, by incorporating spatial maps, our method obtains more accurate and smooth point-wise correspondences compared to previous functional map methods for shape matching. On the other hand, by introducing spectral maps, our method gets rid of commonly used but computationally expensive geodesic distance constraints that are only valid for near-isometric shape deformations. Furthermore, we propose a novel test-time adaptation scheme to capture both pose-dominant and shape-dominant deformations. Using different challenging datasets, we demonstrate that our method outperforms previous state-of-the-art methods for both shape matching and interpolation, even compared to supervised approaches.}
 }
 
-@InProceedings{elamrani2024fuss,
-    bibtex_show={true},
-    abbr={MICCAI 2024},
-    selected={true},
-    preview={nafie2024miccai.png},
-    github={https://github.com/NafieAmrani/FUSS},
-    author={El Amrani, Nafie and Cao, Dongliang and Bernard, Florian},
-    title     = {A Universal and Flexible Framework for Unsupervised Statistical Shape Model Learning},
-    booktitle = {Medical Image Computing and Computer Assisted Intervention (MICCAI)},
-    month     = {October},
-    year      = {2024},
-    abstract={We introduce a novel unsupervised deep learning framework for constructing statistical shape models (SSMs). Although unsupervised learning-based 3D shape matching methods have made a major leap forward in recent years, the correspondence quality of existing methods does not meet the demanding requirements necessary for the construction of SSMs of complex anatomical structures. We address this shortcoming by proposing a novel \emph{deformation coherency loss} to effectively enforce smooth and high-quality correspondences during neural network training. We demonstrate that our framework outperforms existing methods in creating high-quality SSMs by conducting extensive experiments on five challenging datasets with varying anatomical complexities. Our proposed method sets the new state of the art in unsupervised SSM learning, offering a universal solution that is both flexible and reliable. Our source code is publicly available at https://github.com/NafieAmrani/FUSS.}
-}
 
