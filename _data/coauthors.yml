@@ -32,3 +32,19 @@
 "planck":
   - firstname: ["Max"]
     url: https://en.wikipedia.org/wiki/Max_Planck
+
+"cao":
+  - firstname: ["Dongliang"]
+    url: https://dongliangcao.github.io/
+
+"cremers":
+  - firstname: ["Daniel"]
+    url: https://cvg.cit.tum.de/members/cremers
+
+"bernard":
+  - firstname: ["Florian"]
+    url: https://scholar.google.com/citations?user=9GrQ2KYAAAAJ&hl=en
+
+"eisenberger":
+  - firstname: ["Marvin"]
+    url: https://cvg.cit.tum.de/members/eisenber
