@@ -43,12 +43,12 @@
 - title: Teaching Experience
   type: nested_list
   contents:
-    - title: University of Bonn
+    - title: Tutor at the University of Bonn
       items:
         - MA-INF 2317 - Numerical Algorithms for Visual Computing and Machine Learning (2023/2024)
         - MA-INF 2225 - Discrete Models for Visual Computing (2023/2024)
 
-    - title: Delft University of Technology
+    - title: TA at Delft University of Technology
       items:
         - CS4245 Seminar Computer Vision by Deep Learning (2022/2023)
         - CS4035 Cyber Data Analytics (2022/2023)
